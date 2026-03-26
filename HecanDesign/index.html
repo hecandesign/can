@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hecan Design</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page">
+    <!-- Header / Navigation -->
+    <header class="header">
+      <div class="logo">
+        <img src="assets/logo.svg" alt="He-Can" width="48" height="48">
+      </div>
+      <h1 class="brand">He-Can</h1>
+      <nav class="nav">
+        <div class="nav-links">
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#teaching">Teaching</a>
+          <a href="#about">About me</a>
+        </div>
+        <div class="separator"></div>
+        <div class="lang-toggle" aria-label="Language switch">
+          <button type="button" class="lang-btn is-active" data-lang="en">EN</button>
+          <span class="lang-divider">/</span>
+          <button type="button" class="lang-btn" data-lang="zh-CN">CN</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Banner - 紧贴顶栏，间距 0 -->
+    <section class="banner">
+      <img src="assets/banner.png" alt="He-Can - Senior UX/UI Designer" class="banner-img">
+      <canvas class="banner-spotlight" aria-hidden="true"></canvas>
+      <div class="banner-idw-row">
+        <span class="banner-idw-line" aria-hidden="true"></span>
+        <p class="banner-idw">I Design With</p>
+        <span class="banner-idw-line" aria-hidden="true"></span>
+      </div>
+      <div class="banner-creativity-wrap">
+        <div class="banner-creativity-track">
+          <img src="assets/creativity-soul.png" alt="Creativity & Soul" class="banner-creativity">
+          <img src="assets/creativity-soul.png" alt="" class="banner-creativity">
+        </div>
+      </div>
+      <div class="banner-role">
+        <p class="banner-role-line">Senior UX/UI Designer</p>
+        <p class="banner-role-line">Design Systems &amp; AI</p>
+      </div>
+      <a href="#services" class="banner-down-cta" aria-label="Read the full story">
+        <img src="assets/down.svg" alt="" width="48" height="48" class="banner-down-icon">
+        <span class="banner-down-text">READ THE FULL STORY</span>
+      </a>
+    </section>
+    <div class="banner-hairline-wrap" role="presentation">
+      <div class="banner-hairline"></div>
+      <div class="banner-hairline-accent" aria-hidden="true"></div>
+    </div>
+
+    <section class="section-welcome" id="section-welcome" aria-labelledby="welcome-heading">
+      <h2 class="title-accent" id="welcome-heading">
+        <span class="title-accent-line" aria-hidden="true"></span>
+        <span class="title-accent-label">Welcome</span>
+      </h2>
+      <div class="welcome-content-shell">
+        <div class="welcome-content">
+          <div class="welcome-lead">
+            <p class="welcome-lead-line">Hi, I'm He Can —</p>
+            <p class="welcome-lead-line">I Turn <span class="welcome-lead-highlight">Complexity</span> Into</p>
+            <p class="welcome-lead-line">Clarity Through Design.</p>
+          </div>
+          <p class="welcome-desc">
+            8 Years Of Experience Across UX, UI, Design Systems, And User Research. Based In Chongqing, With Enterprise Project Credits Including Ernst &amp; Young, Changan Auto, NIO, And Chongqing Rural Commercial Bank. Currently Open To New Opportunities.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-whatido" id="section-whatido" aria-labelledby="what-i-do-heading">
+      <h2 class="title-accent" id="what-i-do-heading">
+        <span class="title-accent-line" aria-hidden="true"></span>
+        <span class="title-accent-label">What I Actually Do</span>
+      </h2>
+      <div class="welcome-content-shell">
+        <div class="welcome-content">
+          <p class="welcome-lead-line">UX &amp; Product Design</p>
+          <p class="welcome-desc">
+            I Work From The Messy, Undefined Early Stage — Mapping User Journeys, Defining Problems, And Shaping Product Direction — All The Way Through To Polished, Validated Interfaces Ready For Handoff.
+          </p>
+          <div class="whatido-tags" aria-label="What I do tags">
+            <span class="whatido-tag">User Flows</span>
+            <span class="whatido-tag">Wireframing</span>
+            <span class="whatido-tag">Prototyping</span>
+            <span class="whatido-tag">Design Systems</span>
+            <span class="whatido-tag">Usability Testing</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="site-divider" role="presentation"></div>
+
+    <section class="section-whatido section-ui-visual" id="section-ui-visual" aria-label="UI Visual Design">
+      <div class="welcome-content-shell">
+        <div class="welcome-content">
+          <p class="welcome-lead-line">UI Visual Design</p>
+          <p class="welcome-desc">
+            I Build Interfaces That Feel Right — Clean, Purposeful, And Consistent. My Visual Work Serves The User Experience First, While Making Products Something People Actually Enjoy Looking At.
+          </p>
+          <div class="whatido-tags" aria-label="UI Visual Design tags">
+            <span class="whatido-tag">Component Design</span>
+            <span class="whatido-tag">Visual Hierarchy</span>
+            <span class="whatido-tag">Interaction Design</span>
+            <span class="whatido-tag">Dark/Light Mode</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="site-divider" role="presentation"></div>
+
+    <section class="section-whatido section-design-systems" id="section-design-systems" aria-label="Design Systems and Ops">
+      <div class="welcome-content-shell">
+        <div class="welcome-content">
+          <p class="welcome-lead-line">Design Systems &amp; Ops</p>
+          <p class="welcome-desc">
+            I Build Systems That Bring Order To Chaos — Scalable, Well-Documented, And Actually Adopted By The Teams Using Them. Good Design Ops Means Less Reinventing, More Shipping.
+          </p>
+          <div class="whatido-tags" aria-label="Design Systems and Ops tags">
+            <span class="whatido-tag">Token Architecture</span>
+            <span class="whatido-tag">Component Libraries</span>
+            <span class="whatido-tag">Documentation</span>
+            <span class="whatido-tag">Dark/Figma Variables</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="site-divider" role="presentation"></div>
+
+    <section class="section-whatido section-user-research" id="section-user-research" aria-label="User Research and Strategy">
+      <div class="welcome-content-shell">
+        <div class="welcome-content">
+          <p class="welcome-lead-line">User Research &amp; Strategy</p>
+          <p class="welcome-desc">
+            I Believe In Designing With Evidence, Not Assumptions. I Plan And Run Research That Informs Real Product Decisions — From Discovery Interviews To Synthesis And Strategic Recommendations.
+          </p>
+          <div class="whatido-tags" aria-label="User Research and Strategy tags">
+            <span class="whatido-tag">User Interviews</span>
+            <span class="whatido-tag">Survey Design</span>
+            <span class="whatido-tag">Affinity Mapping</span>
+            <span class="whatido-tag">Dark</span>
+            <span class="whatido-tag">Insight Reports</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="site-divider" role="presentation"></div>
+
+    <section class="section-whatido section-ai-design" id="section-ai-design" aria-label="AI-Enhanced Design">
+      <div class="welcome-content-shell">
+        <div class="welcome-content">
+          <p class="welcome-lead-line">AI-Enhanced Design</p>
+          <p class="welcome-desc">
+            I Actively Explore How AI Tools Integrate Into The Design Workflow — Not As A Trend To Follow, But As A Genuine Way To Move Faster, Think Broader, And Deliver More Value As A Designer.
+          </p>
+          <div class="whatido-tags" aria-label="AI-Enhanced Design tags">
+            <span class="whatido-tag">AI-Assisted UX</span>
+            <span class="whatido-tag">Prompt Design</span>
+            <span class="whatido-tag">Workflow Automation</span>
+            <span class="whatido-tag">Tool Evaluation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="site-divider" role="presentation"></div>
+
+    <section class="section-stand-for" id="section-stand-for" aria-labelledby="stand-for-heading">
+      <h2 class="title-accent" id="stand-for-heading">
+        <span class="title-accent-line" aria-hidden="true"></span>
+        <span class="title-accent-label">What I Stand For</span>
+      </h2>
+      <div class="stand-for-grid">
+        <article class="stand-for-card">
+          <span class="stand-for-watermark" aria-hidden="true">01</span>
+          <div class="stand-for-card-head">
+            <p class="stand-for-num">01</p>
+            <h3 class="stand-for-title">Less, But Better</h3>
+          </div>
+          <p class="stand-for-desc">
+            I Resist The Urge To Add. The Best Design Decisions Are Often The Ones That Remove Something.
+          </p>
+          <span class="stand-for-accent" aria-hidden="true"></span>
+        </article>
+        <article class="stand-for-card">
+          <span class="stand-for-watermark" aria-hidden="true">02</span>
+          <div class="stand-for-card-head">
+            <p class="stand-for-num">02</p>
+            <h3 class="stand-for-title">Design That Ships</h3>
+          </div>
+          <p class="stand-for-desc">
+            A Design That Never Gets Built Is Just A Picture. I Care About Making Work That Crosses The Finish Line.
+          </p>
+          <span class="stand-for-accent" aria-hidden="true"></span>
+        </article>
+        <article class="stand-for-card">
+          <span class="stand-for-watermark" aria-hidden="true">03</span>
+          <div class="stand-for-card-head">
+            <p class="stand-for-num">03</p>
+            <h3 class="stand-for-title">Systems Thinking</h3>
+          </div>
+          <p class="stand-for-desc">
+            I Don&apos;t Design Screens — I Design How Things Connect. Consistency At Scale Starts With Thinking In Systems.
+          </p>
+          <span class="stand-for-accent" aria-hidden="true"></span>
+        </article>
+        <article class="stand-for-card">
+          <span class="stand-for-watermark" aria-hidden="true">04</span>
+          <div class="stand-for-card-head">
+            <p class="stand-for-num">04</p>
+            <h3 class="stand-for-title">Stay Curious</h3>
+          </div>
+          <p class="stand-for-desc">
+            The Tools And Context Keep Changing. My Job Is To Keep Up — And Help The People Around Me Do The Same.
+          </p>
+          <span class="stand-for-accent" aria-hidden="true"></span>
+        </article>
+      </div>
+    </section>
+
+    <div class="site-divider" role="presentation"></div>
+
+    <section class="section-right-fit" id="section-right-fit" aria-labelledby="right-fit-heading">
+      <h2 class="title-accent" id="right-fit-heading">
+        <span class="title-accent-line" aria-hidden="true"></span>
+        <span class="title-accent-label">The Right Fit</span>
+      </h2>
+      <div class="right-fit-content">
+        <h3 class="right-fit-lead">
+          Good Design Needs A Good
+          <br>
+          Environment. I&apos;m Looking For Teams
+          <br>
+          That Take Craft Seriously.
+        </h3>
+        <ul class="right-fit-list" aria-label="The right fit checklist">
+          <li class="right-fit-item">Work Independently With Minimal Hand-Holding</li>
+          <li class="right-fit-item">Own The Full Design Process End-To-End</li>
+          <li class="right-fit-item">Bridge Design, Product, And Engineering</li>
+          <li class="right-fit-item">Think In Systems, Not Just Single Screens</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-connect" id="section-connect" aria-label="Contact">
+      <h2 class="connect-title">Let&apos;s<br>Connect</h2>
+    </section>
+  </div>
+  <script src="script.js?v=20260326a"></script>
+</body>
+</html>
